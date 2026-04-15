@@ -86,6 +86,7 @@ $users = $pdo->query('SELECT id, name, email, created_at FROM users ORDER BY cre
 
     <?php
 
+phpinfo();
 
 
     ?>
