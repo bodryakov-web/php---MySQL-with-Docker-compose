@@ -1,0 +1,16 @@
+(Docker Desktop должен быть запущен)
+
+После запуска терминала - вместо PowerShell - запускаем терминал WSL2
+Строка приглашения должна выглядеть как:
+q@KOMPUTER:/mnt/wsl/docker-desktop-bind-mounts/Ubuntu/1c6238ee52130f4c91db8e8c3b691c0b23dc69417678c036cc7cc1cd78619292$
+
+При первом разе:
+docker compose up --build
+При последующих запусках:
+docker compose up
+
+Остановка Docker контейнера и освобождение портов:
+docker compose down
+
+Открывается в браузере по адресу:
+http://localhost:8081/
