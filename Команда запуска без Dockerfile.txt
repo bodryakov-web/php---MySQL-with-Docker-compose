@@ -13,4 +13,4 @@ docker compose up
 docker compose down
 
 Открывается в браузере по адресу:
-http://localhost:8081/
+http://localhost:8080/
