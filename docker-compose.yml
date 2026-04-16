@@ -14,9 +14,9 @@ services:
     image: mysql:8.0.34
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: p-351366_php-docker
-      MYSQL_USER: p-351366_php-docker
-      MYSQL_PASSWORD: Anna-140275
+      DB_NAME: p-351366_php-docker
+      DB_USER: p-351366_php-docker
+      DB_PASS: Anna-140275
       MYSQL_INITDB_SKIP_TZINFO: 1
     command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
