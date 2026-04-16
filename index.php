@@ -1,5 +1,5 @@
 <?php
-$dbHost = 'localhost:3306';
+$dbHost = 'db';
 $dbName = getenv('DB_NAME');
 $dbUser = getenv('DB_USER');
 $dbPass = getenv('DB_PASS');
