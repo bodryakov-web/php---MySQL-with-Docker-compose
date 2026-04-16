@@ -31,7 +31,7 @@ $users = $pdo->query('SELECT id, name, email, created_at FROM users ORDER BY cre
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>PHP + MySQL Demo</title>
+    <title>PHP-Docker</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
         table { border-collapse: collapse; width: 100%; margin-top: 20px; }
@@ -42,7 +42,7 @@ $users = $pdo->query('SELECT id, name, email, created_at FROM users ORDER BY cre
     </style>
 </head>
 <body>
-    <h1>PHP + MySQL минимальный пример</h1>
+    <h1>PHP + MySQL минимальный пример на Hoster.kz и локально</h1>
 
     <?php if ($message): ?>
         <div class="message"><?= htmlspecialchars($message) ?></div>
