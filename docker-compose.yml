@@ -8,6 +8,7 @@ services:
     depends_on:
       - db
     environment:
+      DB_HOST: db
       DB_NAME: p-351366_php-docker
       DB_USER: p-351366_php-docker
       DB_PASS: Anna-140275

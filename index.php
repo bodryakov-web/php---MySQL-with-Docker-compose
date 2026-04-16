@@ -1,8 +1,8 @@
 <?php
-$dbHost = 'localhost';
-$dbName = 'p-351366_php-docker';
-$dbUser = 'p-351366_php-docker';
-$dbPass = 'Anna-140275';
+$dbHost = getenv('DB_HOST') ?: 'localhost';
+$dbName = getenv('DB_NAME') ?: 'p-351366_php-docker';
+$dbUser = getenv('DB_USER') ?: 'p-351366_php-docker';
+$dbPass = getenv('DB_PASS') ?: 'Anna-140275';
 
 try {
     $pdo = new PDO("mysql:host={$dbHost};dbname={$dbName};charset=utf8mb4", $dbUser, $dbPass, [
